@@ -26,9 +26,9 @@ bower install
 
 bower update
 
-===========
-building project 
 
+building project 
+===========
 build the project in vs and then
 
 run following commands inside app directory
@@ -36,14 +36,16 @@ run following commands inside app directory
 gulp clean
 
 gulp dist
-===========
 
+autobuild
+===========
 if you want you project to autobuild run the following command inside app dir
 and leave the shell open
 
 gulp watch
+
+unit tests
 ===========
 to run unit tests, run the following commands inside app/tests
 
 karma start karma.conf
-===========
