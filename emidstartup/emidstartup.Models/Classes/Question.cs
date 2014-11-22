@@ -10,7 +10,10 @@ namespace emidstartup.Models.Classes
     public class Question
     {
         public Question(){
-            RelevanceToTopic = new Dictionary<Topic, float>();
+            RelevanceToSubTopic = new Dictionary<SubTopic, float>();
+            RelevanceToSkill = new Dictionary<Skill, float>();
+            RelevanceToSubject = new Dictionary<Subject, float>();
+            RelevanceToClass = new Dictionary<Class, float>();
         }
 
         [Key]
@@ -21,7 +24,9 @@ namespace emidstartup.Models.Classes
         public string QuestionString { get; set; }
         public TimeSpan MinRequiredTime { get; set; }
         public TimeSpan MaxRequiredTime { get; set; }
-        public Dictionary<Topic, float> RelevanceToTopic { get; set; }
-
+        public Dictionary<SubTopic, float> RelevanceToSubTopic { get; set; }
+        public Dictionary<Skill, float> RelevanceToSkill { get; set; }
+        public Dictionary<Subject, float> RelevanceToSubject { get; set; }
+        public Dictionary<Class, float> RelevanceToClass { get; set; }
     }
 }
