@@ -7,17 +7,15 @@ using System.Threading.Tasks;
 
 namespace emidstartup.Models.Classes
 {
-    public class Option
+    public class QuestionSubTopicRelevance
     {
-        
         [Key]
-        public int Id { get; set; }
+        public int Id{get; set;}
         [Required]
-        public string Value { get; set; }
+        public Question Question { get; set; }
         [Required]
-        public bool IsAnswer { get; set; }
+        public SubTopic SubTopic { get; set; }
         [Required]
-        public float Weight { get; set; }
+        public float Relevance { get; set; }
     }
-    
 }

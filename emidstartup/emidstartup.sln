@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emidstartup", "emidstartup\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emidstartup.Tests", "emidstartup.Tests\emidstartup.Tests.csproj", "{AF130852-F9AE-4D0A-AE8B-4A02B5BDE5CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emidstartup.Models", "emidstartup.Models\emidstartup.Models.csproj", "{F4AE9D6B-373E-444C-AC32-4876AC27364D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emidstartup.DataLayer", "emidstartup.DataLayer\emidstartup.DataLayer.csproj", "{3A514E3B-815D-4D57-B6E6-E09FC3591276}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{AF130852-F9AE-4D0A-AE8B-4A02B5BDE5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF130852-F9AE-4D0A-AE8B-4A02B5BDE5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF130852-F9AE-4D0A-AE8B-4A02B5BDE5CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4AE9D6B-373E-444C-AC32-4876AC27364D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4AE9D6B-373E-444C-AC32-4876AC27364D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4AE9D6B-373E-444C-AC32-4876AC27364D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4AE9D6B-373E-444C-AC32-4876AC27364D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A514E3B-815D-4D57-B6E6-E09FC3591276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A514E3B-815D-4D57-B6E6-E09FC3591276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A514E3B-815D-4D57-B6E6-E09FC3591276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A514E3B-815D-4D57-B6E6-E09FC3591276}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,12 +9,10 @@ namespace emidstartup.Models.Classes
 {
     public class QuestionType
     {
-        public class QuestionType
-        {
+       
             [Key]
             public int Id { get; set; }
             [Required]
             public string Value { get; set; }
-        }
     }
 }
