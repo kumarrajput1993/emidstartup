@@ -15,5 +15,6 @@ namespace emidstartup.DataLayer
         public DbSet<QuestionSubjectRelevance> QuestionSubjectRelevance { get; set; }
         public DbSet<QuestionSkillRelevance> QuestionSkillRelevance { get; set; }
         public DbSet<QuestionClassRelevance> QuestionClassRelevance { get; set; }
+        public DbSet<QuestionSubTopicData> QuestionSubTopicData { get; set; }
     }
 }

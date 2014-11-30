@@ -53,6 +53,7 @@
     <Compile Include="Classes\QuestionSkillRelevance.cs" />
     <Compile Include="Classes\QuestionSubjectRelevance.cs" />
     <Compile Include="Classes\QuestionClassRelevance.cs" />
+    <Compile Include="Classes\QuestionSubtopicData.cs" />
     <Compile Include="Classes\QuestionSubTopicRelevance.cs" />
     <Compile Include="Classes\QuestionType.cs" />
     <Compile Include="Classes\Skill.cs" />

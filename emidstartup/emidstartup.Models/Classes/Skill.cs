@@ -12,6 +12,8 @@ namespace emidstartup.Models.Classes
         [Key]
         public int Id { get; set; }
         [Required]
-        public string Value { get; set; }
+        public string Name { get; set; }
+        [Required]
+        public float Value { get; set; }
     }
 }
