@@ -15,7 +15,7 @@ namespace emidstartup.Models.Classes
         [ForeignKey("QuestionType")]
         public int QuestionTypeId { get; set; }
         [Required]
-        public QuestionType Type { get; set; }
+        public QuestionType QuestionType { get; set; }
         [Required]
         public string QuestionString { get; set; }
         public TimeSpan MinRequiredTime { get; set; }
