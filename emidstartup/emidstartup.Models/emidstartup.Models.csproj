@@ -50,6 +50,7 @@
     <Compile Include="Classes\Level.cs" />
     <Compile Include="Classes\Option.cs" />
     <Compile Include="Classes\Question.cs" />
+    <Compile Include="Classes\QuestionOption.cs" />
     <Compile Include="Classes\QuestionSkillRelevance.cs" />
     <Compile Include="Classes\QuestionSubjectRelevance.cs" />
     <Compile Include="Classes\QuestionClassRelevance.cs" />
