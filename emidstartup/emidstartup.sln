@@ -1,9 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emidstartup", "emidstartup\emidstartup.csproj", "{D21C8887-E07D-4185-8C22-0C2D4981B627}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3A514E3B-815D-4D57-B6E6-E09FC3591276} = {3A514E3B-815D-4D57-B6E6-E09FC3591276}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emidstartup.Tests", "emidstartup.Tests\emidstartup.Tests.csproj", "{AF130852-F9AE-4D0A-AE8B-4A02B5BDE5CF}"
 EndProject
