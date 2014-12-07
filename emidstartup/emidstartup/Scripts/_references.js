@@ -9,3 +9,5 @@
 /// <reference path="npm.js" />
 /// <reference path="respond.js" />
 /// <reference path="respond.matchmedia.addlistener.js" />
+/// <reference path="../gulpfile.js" />
+/// <reference path="../karma.config.js" />
