@@ -17,5 +17,7 @@ namespace emidstartup.DataLayer
         public DbSet<QuestionClassRelevance> QuestionClassRelevance { get; set; }
         public DbSet<QuestionSubTopicData> QuestionSubTopicData { get; set; }
         public DbSet<QuestionOption> QuestionOption { get; set; }
+
+        public System.Data.Entity.DbSet<emidstartup.Models.Classes.Skill> Skills { get; set; }
     }
 }

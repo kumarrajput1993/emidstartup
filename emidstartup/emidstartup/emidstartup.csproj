@@ -211,6 +211,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ApiForInternalUse\SkillController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -299,6 +300,16 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\emidstartup.DataLayer\emidstartup.DataLayer.csproj">
+      <Project>{3a514e3b-815d-4d57-b6e6-e09fc3591276}</Project>
+      <Name>emidstartup.DataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\emidstartup.Models\emidstartup.Models.csproj">
+      <Project>{f4ae9d6b-373e-444c-ac32-4876ac27364d}</Project>
+      <Name>emidstartup.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
