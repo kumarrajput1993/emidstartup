@@ -228,7 +228,7 @@
   <ItemGroup>
     <Content Include="app\bower_components\angular\angular.js" />
     <Content Include="app\bower_components\bootstrap\dist\css\bootstrap.css" />
-    <Content Include="app\components\Readme.txt" />
+    <Content Include="app\components\app.module.js" />
     <Content Include="app\gulpfile.js" />
     <Content Include="app\images\image.txt" />
     <Content Include="app\images\Readme.txt" />
