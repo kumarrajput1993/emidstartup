@@ -40,13 +40,5 @@ describe('skillAddEditController', function(){
         expect(sessionDataService.getSkills).toHaveBeenCalled();
     });
 
-    function createSkill(id){
-        var skill = {
-            id: id,
-            name: 'skillName' + id,
-            value: 'skillId' + id
-        };
 
-        return skill;
-    }
 });

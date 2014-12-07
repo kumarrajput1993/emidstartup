@@ -10,10 +10,10 @@ namespace emidstartup.Models.Classes
     public class Skill
     {
         [Key]
-        public int Id { get; set; }
+        public int id { get; set; }
         [Required]
-        public string Name { get; set; }
+        public string name { get; set; }
         [Required]
-        public float Value { get; set; }
+        public float value { get; set; }
     }
 }

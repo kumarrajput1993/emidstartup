@@ -34,8 +34,8 @@ module.exports = function(config) {
             'app/components/*.module.js',
             'app/components/**/*.js',
             'app/components/*.js',
-            'app/components/**/*.spec',
-            'app/components/*.spec',
+            'app/components/**/*.spec.js',
+            'app/components/*.spec.js',
             'app/components/*.html',
             'app/components/**/*.html',
             'i18n/*.js'

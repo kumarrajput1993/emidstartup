@@ -44,7 +44,7 @@ namespace emidstartup.Controllers.ApiForInternalUse
                 return BadRequest(ModelState);
             }
 
-            if (id != skill.Id)
+            if (id != skill.id)
             {
                 return BadRequest();
             }
@@ -82,7 +82,7 @@ namespace emidstartup.Controllers.ApiForInternalUse
             db.Skills.Add(skill);
             db.SaveChanges();
 
-            return CreatedAtRoute("DefaultApi", new { id = skill.Id }, skill);
+            return CreatedAtRoute("DefaultApi", new { id = skill.id }, skill);
         }
 
         // DELETE api/Skill/5
@@ -112,7 +112,7 @@ namespace emidstartup.Controllers.ApiForInternalUse
 
         private bool SkillExists(int id)
         {
-            return db.Skills.Count(e => e.Id == id) > 0;
+            return db.Skills.Count(e => e.id == id) > 0;
         }
     }
 }

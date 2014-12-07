@@ -9,7 +9,6 @@
 
         function updateData(){
             sessionDataService.getSkills().then(populateSkills);
-
         }
 
         function populateSkills(skills){
